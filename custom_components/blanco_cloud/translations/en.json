@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "BLANCO Cloud",
+        "description": "Enter the 64-character BLANCO cloud device ID.",
+        "data": {"device_id": "Device ID"}
+      }
+    },
+    "error": {
+      "cannot_connect": "Authentication or connection to the BLANCO Cloud failed.",
+      "invalid_device_id": "The device ID must contain 64 hexadecimal characters."
+    },
+    "abort": {"already_configured": "This device is already configured."}
+  }
+}

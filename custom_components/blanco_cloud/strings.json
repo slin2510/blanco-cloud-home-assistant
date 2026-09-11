@@ -1,0 +1,16 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "BLANCO Cloud",
+        "description": "Gib die 64-stellige BLANCO-Cloud-Geräte-ID ein.",
+        "data": {"device_id": "Geräte-ID"}
+      }
+    },
+    "error": {
+      "cannot_connect": "Authentifizierung oder Verbindung zur BLANCO Cloud fehlgeschlagen.",
+      "invalid_device_id": "Die Geräte-ID muss aus 64 Hexadezimalzeichen bestehen."
+    },
+    "abort": {"already_configured": "Dieses Gerät ist bereits eingerichtet."}
+  }
+}

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Local credentials and test data
+.env
+.env.*
+historical_actions.json
+ha-config/
+
+# Local planning/runtime state
+.omx/
+docs/superpowers/
+
+# macOS/editor files
+.DS_Store
+.idea/
+.vscode/
